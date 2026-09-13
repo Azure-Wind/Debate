@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["public_patch", "private_patch", "state_change", "unit_assessment"],
+  "properties": {
+    "public_patch": {"type": "object"},
+    "private_patch": {"type": "object"},
+    "state_change": {"type": "array"},
+    "unit_assessment": {"type": "object"}
+  }
+}

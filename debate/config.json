@@ -1,0 +1,25 @@
+{
+  "provider": "ccswitch",
+  "claude_command": "claude",
+  "models": {
+    "agent_a": "auto",
+    "agent_b": "auto",
+    "committer": "auto"
+  },
+  "defaults": {
+    "max_units": 3,
+    "definition_turns": 4,
+    "max_agent_turns": 1,
+    "timeout_seconds": 180,
+    "effort": "low"
+  },
+  "local": {
+    "lmstudio_base_url": "http://127.0.0.1:1234"
+  },
+  "runtime": {
+    "restricted": true,
+    "no_session_persistence": true,
+    "permission_prompts": "none",
+    "committer_mode": "python"
+  }
+}

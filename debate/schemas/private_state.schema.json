@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["role", "knowledge", "belief_model", "memory", "discovered_attacks", "unresolved_questions", "strategy", "self_model", "meta"],
+  "properties": {
+    "role": {"type": "string"},
+    "knowledge": {"type": "object"},
+    "belief_model": {"type": "object"},
+    "memory": {"type": "object"},
+    "discovered_attacks": {"type": "array"},
+    "unresolved_questions": {"type": "array"},
+    "strategy": {"type": "object"},
+    "self_model": {"type": "object"},
+    "meta": {"type": "object"}
+  }
+}

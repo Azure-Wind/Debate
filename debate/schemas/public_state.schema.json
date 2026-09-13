@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["meta", "public_transcript", "definitions", "standards", "commitments", "evidence", "causal_chains", "counterexamples", "boundaries", "burden_of_proof", "open_questions", "attack_routes", "defense_routes", "strategic_state", "inquiry_ledger"],
+  "properties": {
+    "meta": {"type": "object"},
+    "public_transcript": {"type": "array"},
+    "definitions": {"type": "array"},
+    "standards": {"type": "array"},
+    "commitments": {"type": "array"},
+    "evidence": {"type": "array"},
+    "causal_chains": {"type": "array"},
+    "counterexamples": {"type": "array"},
+    "boundaries": {"type": "array"},
+    "burden_of_proof": {"type": "array"},
+    "open_questions": {"type": "array"},
+    "attack_routes": {"type": "array"},
+    "defense_routes": {"type": "array"},
+    "strategic_state": {"type": "object"},
+    "inquiry_ledger": {"type": "object"}
+  }
+}

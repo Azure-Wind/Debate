@@ -1,0 +1,13 @@
+{
+  "topic": "AI是否会降低人的创造力？",
+  "a_side": "反方",
+  "b_side": "正方",
+  "valid_units": 1,
+  "A_initiated": 1,
+  "B_initiated": 0,
+  "core_routes": [
+    "causal"
+  ],
+  "technical_stop": false,
+  "mode": "ccswitch"
+}
